@@ -1,0 +1,69 @@
+Recursos:
+
+1.Lista de preguntas Para el desarrollo de la página web:
+
+1.1 Describir el tipo de productos que vende Puntaplas o que vaya a vender en un futuro próximo (Tipos, tamaños, capacidades y detalles adicionales que debamos saber)
+
+    Envases matricería propia 
+    Envases para cosmética: 
+        • Botellas pet en: 500, 410, 330, 200, 120cc
+        • Oleo calcáreo polietileno : 1000 500 250 
+    Talqueras polietileno: 
+        • 200gr y 100gr
+    Pote polietileno tipo crema de afeitar para:
+        • 250gr y 125gr 
+    Química genérico 
+        • Polietileno: 1000cc 
+        • Pet: 1000cc
+    Alimenticio:  
+        ◦ Edulcorante polietileno: 400 250 200
+        ◦ Agua Pet:  6L, 2L, 1.5L, 600cc 
+        ◦ Cerveza pet:  1L                  
+
+1.2 Describir los servicios que ofrece Puntaplas por fuera de la fabricación de botellas:
+
+    ▪ Fabricación de envases con matriz de terceros 
+    ▪ Etiquetado
+    ▪ Asesoramiento para el desarrollo de matrices     
+
+1.3 ¿Con qué clientes trabaja hoy en día la fábrica?
+
+Actualmente 
+    ▪ Disal 
+    ▪ Capilatis 
+    ▪ Jumalá 
+Anteriormente
+    ▪ Colgate  
+    ▪ Hileret
+    ▪ Dellepiane
+    ▪ Promarc
+    ▪ Natural Foods
+
+1.4 ¿Qué relación tiene Puntaplas con la sostenibilidad? (Involucran procesos sostenibles, materiales, reciclados, etc)
+
+    ◦ recuperación y reelaboración del scrap 
+    ◦ bolsas de embalaje fabricadas con el propio scrap
+    ◦ pallet reelaborados
+
+1.5 Me gustaría que pudieras desarrollar un texto que hable de Puntaplas (Historia, comienzos, actualidad, equipo, ubicación, etc):
+
+Empresa familiar con más de 30 años de experiencia en la elaboración de envases plásticos
+Ubicados en san Luis capital dedicados a proveer a grandes clientes dentro y fuera de la provincia, que actualmente amplía su cobertura, apoyando y acompañando con su experiencia pequeños emprendedores de la provincia. 
+
+2. Tipografias y colores.
+
+Fuente de logo: Helvetica
+Fuente para la web: Montserrat
+
+lograr mayor impacto y modernidad.
+A estos se sumamos tonos inspirados en la bandera y el escudo de San Luis, reforzando
+el vínculo con su origen local y transmitiendo un sentido de pertenencia: Azul celeste:
+amplitud, claridad y conexión con el cielo puntano, Amarillo: energía, optimismo y luz.<<<<<<
+Verdes: naturaleza, vitalidad y equilibrio.
+
+color_texto: #000000
+color_secundario: #0268ad
+color_secundario_2: #0db1b5
+color_fondo: #e0e5e8
+
+Objetivo de la web

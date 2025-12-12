@@ -1,0 +1,184 @@
+/* Clients Section */
+.section {
+  padding: 4rem 1.5rem;
+  background-color: var(--color-fondo);
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-secundario);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+}
+
+/* Marquee Container */
+.marqueeContainer {
+  overflow: hidden;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.marqueeContainer::before,
+.marqueeContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marqueeContainer::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-fondo) 0%, transparent 100%);
+}
+
+.marqueeContainer::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-fondo) 0%, transparent 100%);
+}
+
+/* Marquee Animation */
+.marquee {
+  display: flex;
+  gap: 2rem;
+  animation: scroll 30s linear infinite;
+  width: fit-content;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Client Card */
+.clientCard {
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.clientCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.clientName {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--color-secundario);
+  text-align: center;
+}
+
+.clientBadge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: var(--color-secundario-2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Closing */
+.closing {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #555555;
+  margin: 3rem auto 0;
+  text-align: center;
+  max-width: 800px;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+  }
+
+  .marqueeContainer {
+    margin: 4rem 0;
+  }
+
+  .clientCard {
+    min-width: 240px;
+    padding: 2.5rem 3rem;
+  }
+
+  .clientName {
+    font-size: 1.5rem;
+  }
+
+  .clientBadge {
+    font-size: 0.8125rem;
+  }
+
+  .closing {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 6rem 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}

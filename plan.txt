@@ -1,0 +1,213 @@
+Arquitectura básica
+
+Web one-page corporativa orientada a B2B, con foco en:
+Presentar Puntaplas como fábrica sólida y confiable.
+Mostrar capacidad productiva (rubros + clientes grandes).
+Reforzar sostenibilidad y origen San Luis.
+Facilitar el contacto comercial (WhatsApp, mail, formulario).
+Secciones principales:
+
+Hero / Portada
+Líneas de productos
+Servicios complementarios
+Por qué elegir Puntaplas
+Sustentabilidad
+Trayectoria y clientes
+Sobre Puntaplas (Historia)
+Contacto
+Te dejo textos ejemplo + qué assets buscar en cada parte.
+
+1. Hero / Portada
+
+Objetivo: impacto de marca + dejar claro “qué es Puntaplas” en 5 segundos.
+
+Título ejemplo:
+
+“Envases plásticos a medida para cosmética, química y alimentos”
+Subtítulo:
+
+“Somos una empresa familiar con más de 30 años de experiencia en la fabricación de envases plásticos en San Luis. Acompañamos tanto a grandes marcas como a emprendedores en todo el país.”
+Bullets rápidos:
+
+“Moldes propios y de terceros”
+“Producción para grandes volúmenes”
+“Asesoramiento técnico en desarrollo de matrices”
+CTA principal:
+
+Botón: “Consultar por WhatsApp”
+Texto prellenado tipo: “Hola Puntaplas, quisiera más información sobre envases para [cosmética / alimentos / química].”
+Assets para esta sección:
+
+Foto o mockup principal:
+Imagen limpia de botellas alineadas (cosmética/química/alimentos) sobre fondo claro con los colores de marca.
+Versión en buena calidad del logo.
+De ser posible, una foto de la planta o una textura/imagen sutil de envases/botellas desenfocadas como fondo.
+
+
+2. Líneas de productos
+
+Separado en bloques, no hace falta mostrar cada medida, pero sí familia de productos.
+
+Título sección:
+
+“Líneas de envases”
+Intro breve:
+
+“Desarrollamos y fabricamos envases plásticos para distintas industrias, con matricería propia y de terceros.”
+Sub-bloques:
+
+a) Cosmética
+Texto:
+
+“Botellas PET en 500, 410, 330, 200 y 120 cc para productos capilares, corporales y faciales.”
+“Envases de polietileno para oleo calcáreo en 1000, 500 y 250 cc.”
+CTA pequeño: “Consultar envases para cosmética por WhatsApp”
+b) Talqueras
+
+“Talqueras de polietileno de 200 g y 100 g, ideales para líneas de cuidado personal.”
+c) Cremas y ungüentos
+
+“Potes de polietileno tipo crema de afeitar en 250 y 125 g, pensados para cremas, geles y productos dermatológicos.”
+d) Química
+
+“Envases genéricos para industria química: botellas de polietileno y PET de 1000 cc, resistentes y confiables.”
+e) Alimenticio
+
+“Envases para edulcorantes: 400, 250 y 200 cc de polietileno.”
+“Botellas PET para agua en 6 L, 2 L, 1,5 L y 600 cc.”
+“Botellas PET para cerveza de 1 L.”
+Assets para productos:
+
+Fotos (o renders) por familia:
+Grupo de botellas cosméticas limpias, sin marca o con etiquetas genéricas.
+Talqueras en diferentes tamaños.
+Potes tipo crema de afeitar.
+Botellas grandes para química (genéricas, aspecto industrial).
+Botellas de agua y cerveza (sin marca o con etiqueta neutra).
+Fondos claros, con leves acentos en azul/verde para no competir con los productos.
+Fotos de detalle (primer plano de tapas, roscas, terminaciones).
+
+
+3. Servicios complementarios
+
+Título:
+
+“Más que fabricación de envases”
+Texto:
+
+“Además de fabricar envases, acompañamos a nuestros clientes en todo el proceso de desarrollo de sus productos.”
+Listado:
+
+“Fabricación de envases con matriz de terceros”
+“Etiquetado y presentación del producto”
+“Asesoramiento para el desarrollo de nuevas matrices”
+CTA:
+
+“Contanos tu proyecto por WhatsApp”
+Assets:
+
+Foto de alguien manipulando un molde, o máquina de inyección/soplado.
+Foto de envases etiquetados (aunque sea genérico, da idea de servicio de etiquetado).
+Íconos simples para cada servicio (molde, etiqueta, engranaje/idea).
+4. Por qué elegir Puntaplas
+
+Título:
+
+“¿Por qué las marcas eligen Puntaplas?”
+Texto:
+
+“Combinamos experiencia, flexibilidad productiva y un fuerte compromiso con el trabajo local en San Luis.”
+Tres o cuatro pilares en formato tarjetas:
+
+“Experiencia de más de 30 años”
+“Producción para grandes volúmenes y para emprendedores”
+“Flexibilidad en diseño y matricería”
+“Acompañamiento técnico cercano”
+Assets:
+
+Íconos (reloj/medalla para experiencia, fábrica, mano que sostiene producto, engranajes).
+Eventualmente una foto del equipo o de la planta de producción.
+5. Sustentabilidad
+
+Título:
+
+“Sostenibilidad en nuestros procesos”
+Texto ejemplo:
+
+“Entendemos la responsabilidad de trabajar con plásticos y por eso incorporamos procesos que reducen nuestro impacto.”
+“Recuperamos y reelaboramos el scrap de producción para transformarlo en nuevos recursos, como bolsas de embalaje y pallets reutilizados.”
+Bullets:
+
+“Recuperación y reelaboración de scrap”
+“Bolsas de embalaje hechas con nuestro propio scrap”
+“Pallets reelaborados para optimizar el uso de materiales”
+Assets:
+
+Fotos de scrap siendo procesado / material reciclado.
+Foto de pallets reutilizados o apilados prolijamente.
+Imagen que conecte con naturaleza/local (paisaje de San Luis, lomas, cielo celeste) para reforzar verdes y azules de la paleta.
+6. Trayectoria y clientes
+
+Título:
+
+“Marcas que confían en nosotros”
+Texto corto:
+
+“A lo largo de nuestra historia, trabajamos con empresas líderes y con nuevas marcas que empiezan a crecer.”
+Dos bloques:
+
+Clientes actuales:
+
+Disal
+Capilatis
+Jumalá
+Clientes anteriores (mencionados como trayectoria):
+
+Colgate
+Hileret
+Dellepiane
+Promarc
+Natural Foods
+Frase cierre:
+
+“Esta experiencia nos permite adaptarnos a los requerimientos y estándares de distintas industrias.”
+Assets:
+
+Logos de los clientes (si tenés derecho a usarlos; si no, solo listarlos en texto).
+Foto tipo “industrial/depósito” que transmita escala y profesionalismo.
+7. Sobre Puntaplas (Historia)
+
+Título:
+
+“Puntaplas, más de 30 años en San Luis”
+Texto largo (puede ir en 2 párrafos):
+
+Párrafo 1 – Historia y esencia:
+
+“Puntaplas es una empresa familiar con más de 30 años de experiencia en la elaboración de envases plásticos. Desde nuestros comienzos, nos especializamos en ofrecer soluciones confiables y adaptadas a las necesidades de cada cliente.”
+Párrafo 2 – Ubicación y actualidad:
+
+“Estamos ubicados en la ciudad de San Luis y proveemos envases a grandes clientes dentro y fuera de la provincia. En los últimos años, ampliamos nuestra cobertura para acompañar también a pequeños emprendedores locales, poniendo nuestra experiencia industrial al servicio de nuevos proyectos.”
+Párrafo 3 – Equipo (opcional):
+
+“Nuestro equipo combina oficio, conocimiento técnico y una atención cercana, que nos permite acompañar a cada cliente desde la idea hasta el producto terminado.”
+Assets:
+
+Foto de la planta / frente de la fábrica.
+Foto del equipo (aunque sea en entorno industrial, sin poses muy rígidas).
+Mapa simple o ícono marcando San Luis.
+8. Contacto
+
+Título:
+
+“Hablemos de tu proyecto”
+Texto:
+
+“Contanos qué tipo de envase necesitás y te asesoramos sobre la mejor opción para tu producto.”
+Elementos:
+
+Botón grande: “Escribir por WhatsApp”
+Mail de contacto
+Teléfono fijo (si aplica)
+Dirección y horarios de atención
+Opcional: formulario breve (nombre, empresa, mail, mensaje).

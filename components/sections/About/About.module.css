@@ -1,0 +1,163 @@
+/* About Section */
+.section {
+  padding: 4rem 1.5rem;
+  background-color: #ffffff;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-secundario);
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* Text Content */
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Paragraph */
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-secundario-2);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555555;
+  margin: 0;
+}
+
+/* Image Container */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Location Badge */
+.locationBadge {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 0.75rem 1.25rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.locationIcon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.locationText {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-secundario);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+  }
+
+  .content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .textContent {
+    flex: 1;
+    gap: 2.5rem;
+  }
+
+  .imageContainer {
+    flex: 1;
+    max-width: 500px;
+    position: sticky;
+    top: 100px;
+  }
+
+  .subtitle {
+    font-size: 1.375rem;
+  }
+
+  .text {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 6rem 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .content {
+    gap: 4rem;
+  }
+
+  .imageContainer {
+    max-width: 550px;
+  }
+}

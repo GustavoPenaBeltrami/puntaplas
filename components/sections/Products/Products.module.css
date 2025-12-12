@@ -1,0 +1,152 @@
+/* Products Section */
+.section {
+  padding: 4rem 1.5rem;
+  background-color: var(--color-fondo);
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-secundario);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+}
+
+/* Products Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Custom Card */
+.customCard {
+  background: linear-gradient(135deg, var(--color-secundario) 0%, var(--color-secundario-2) 100%);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(2, 104, 173, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(2, 104, 173, 0.3);
+}
+
+.customContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.customIcon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.customTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.customDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  max-width: 400px;
+}
+
+.customButton {
+  background-color: #ffffff;
+  color: var(--color-secundario);
+  border: none;
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-montserrat), sans-serif;
+  margin-top: 0.5rem;
+}
+
+.customButton:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.customButton:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+  }
+
+  .header {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 6rem 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+}
