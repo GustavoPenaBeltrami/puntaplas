@@ -41,10 +41,10 @@ export default function Header() {
         {/* Logo */}
         <div className={styles.logoContainer}>
           <Image
-            src="/logo_fondo_azul.png"
+            src="/isologotipo.png"
             alt="Puntaplas"
             width={150}
-            height={50}
+            height={150}
             className={styles.logo}
             priority
           />

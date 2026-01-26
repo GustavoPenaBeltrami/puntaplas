@@ -21,10 +21,10 @@ export default function Footer() {
           <div className={styles.brandColumn}>
             <div className={styles.logoContainer}>
               <Image
-                src="/logo_fondo_azul.png"
+                src="/isologotipo.png"
                 alt="Puntaplas"
                 width={180}
-                height={60}
+                height={180}
                 className={styles.logo}
               />
             </div>

@@ -9,6 +9,28 @@
   
   /* Fuente */
   --font-montserrat: var(--font-montserrat);
+
+  /* Tamaño base reducido y fluido */
+  font-size: clamp(14px, 1vw + 12px, 16px);
+}
+
+/* Ajustes progresivos para pantallas más chicas */
+@media (max-width: 1280px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 14px;
+  }
 }
 
 /* Smooth scroll global */
@@ -19,9 +41,24 @@ html {
 
 /* Configuración global */
 body {
-  font-family: var(--font-montserrat), sans-serif;
-  color: var(--color-texto);
-  background-color: var(--color-fondo);
+  font-family: var(--font-montserrat), sans-serif !important;
+  color: var(--color-texto) !important;
+  background-color: var(--color-fondo) !important;
+  font-size: 0.95rem !important; /* reduce el cuerpo del texto */
+  line-height: 1.55 !important;
+}
+
+/* Escala general de headings (fallback para secciones sin override) */
+h1 {
+  font-size: clamp(2.1rem, 3vw + 1rem, 2.75rem) !important;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 2.2vw + 0.9rem, 2.25rem) !important;
+}
+
+h3 {
+  font-size: clamp(1.3rem, 1.5vw + 0.85rem, 1.6rem) !important;
 }
 
 /* Clases de colores de texto */
