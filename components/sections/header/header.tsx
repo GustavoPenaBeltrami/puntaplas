@@ -41,7 +41,7 @@ export default function Header() {
         {/* Logo */}
         <div className={styles.logoContainer}>
           <Image
-            src="/isologotipo.png"
+            src="/logo_completo_azul.png"
             alt="Puntaplas"
             width={150}
             height={150}

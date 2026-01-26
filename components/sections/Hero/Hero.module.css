@@ -185,3 +185,26 @@
         }
     }
 }
+
+@media (max-height: 800px) {
+
+    /* Container */
+    .container {
+        margin-top: 60px !important;
+    }
+
+    .title {
+        font-size: 2rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .intro {
+        font-size: 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .bullets * {
+        font-size: 1rem !important;
+    }
+
+}

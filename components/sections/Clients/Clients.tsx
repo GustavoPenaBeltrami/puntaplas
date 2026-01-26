@@ -20,7 +20,7 @@ export default function Clients() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>Marcas que confían en nosotros</h2>
+          <h2 className={styles.title}>Marcas que confiaron en nosotros</h2>
           <p className={styles.intro}>
             A lo largo de nuestra historia trabajamos con empresas líderes de distintos rubros, 
             así como con nuevas marcas que recién comienzan a crecer.
