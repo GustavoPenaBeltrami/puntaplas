@@ -42,7 +42,7 @@ export default function Services() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>Más que fabricación de envases</h2>
+          <h2 className={styles.servicesTitle}>Más que fabricación de envases</h2>
           <p className={styles.intro}>
             Acompañamos a nuestros clientes en todo el proceso, desde la idea inicial 
             hasta el producto listo para salir al mercado.
@@ -61,9 +61,6 @@ export default function Services() {
                   height={300}
                   className={styles.image}
                 />
-                <div className={styles.iconOverlay}>
-                  <span className={styles.icon}>{service.icon}</span>
-                </div>
               </div>
               <div className={styles.content}>
                 <h3 className={styles.serviceTitle}>{service.title}</h3>

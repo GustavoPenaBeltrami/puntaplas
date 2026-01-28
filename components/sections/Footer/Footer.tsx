@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import { HiEnvelope, HiPhone, HiMapPin, HiClock } from 'react-icons/hi2';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -96,20 +97,20 @@ export default function Footer() {
             <h3 className={styles.columnTitle}>Contacto</h3>
             <ul className={styles.contactList}>
               <li className={styles.contactItem}>
-                <span className={styles.contactIcon}>📧</span>
+                <span className={styles.contactIcon}><HiEnvelope /></span>
                 <a href="mailto:info@puntaplas.com.ar" className={styles.contactLink}>info@puntaplas.com.ar</a>
               </li>
               <li className={styles.contactItem}>
-                <span className={styles.contactIcon}>📱</span>
+                <span className={styles.contactIcon}><HiPhone /></span>
                 <a href="tel:+542664000000" className={styles.contactLink}>+54 (266) 400-0000</a>
               </li>
               <li className={styles.contactItem}>
-                <span className={styles.contactIcon}>📍</span>
+                <span className={styles.contactIcon}><HiMapPin /></span>
                 <span className={styles.contactText}>San Luis Capital, Argentina</span>
               </li>
               <li className={styles.contactItem}>
-                <span className={styles.contactIcon}>🕐</span>
-                <span className={styles.contactText}>Lun-Vie: 8:00-17:00<br />Sáb: 9:00-13:00</span>
+                <span className={styles.contactIcon}><HiClock /></span>
+                <span className={styles.contactText}>Lun-Vie: 8:00-17:00<br />  Sáb: 9:00-13:00</span>
               </li>
             </ul>
           </div>

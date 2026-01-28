@@ -25,7 +25,7 @@ export default function Hero() {
       <div className={styles.container}>
         <div className={styles.content}>
           {/* Título principal */}
-          <h1 className={styles.title}>
+          <h1 className={styles.heroTitle}>
             Envases plásticos para cosmética, química y alimentos
           </h1>
 

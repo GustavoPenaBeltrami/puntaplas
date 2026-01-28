@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { HiMapPin } from 'react-icons/hi2'
 import styles from './About.module.css'
 
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>Puntaplas, más de 30 años en envases plásticos</h2>
+          <h2 className={styles.aboutTitle}>Puntaplas, más de 30 años en envases plásticos</h2>
         </div>
 
         <div className={styles.content}>
@@ -64,7 +65,7 @@ export default function About() {
               className={styles.image}
             />
             <div className={styles.locationBadge}>
-              <span className={styles.locationIcon}>📍</span>
+              <span className={styles.locationIcon}><HiMapPin /></span>
               <span className={styles.locationText}>San Luis, Argentina</span>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function Sustainability() {
         <div className={styles.content}>
           {/* Text Content */}
           <div className={styles.textContent}>
-            <h2 className={styles.title}>Compromiso con la sostenibilidad</h2>
+            <h2 className={styles.sustainabilityTitle}>Compromiso con la sostenibilidad</h2>
             <p className={styles.intro}>
               Sabemos que trabajar con plásticos implica una gran responsabilidad. 
               Por eso, incorporamos procesos que nos permiten reducir el desperdicio 

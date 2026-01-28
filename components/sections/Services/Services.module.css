@@ -6,7 +6,7 @@
 
 /* Container */
 .container {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -19,8 +19,8 @@
   margin-right: auto;
 }
 
-.title {
-  font-size: 2rem;
+.servicesTitle {
+  font-size: 1.5rem !important;
   font-weight: 700;
   color: var(--color-secundario);
   margin-bottom: 1rem;
@@ -139,13 +139,13 @@
     padding: 5rem 2rem;
   }
 
-  .title {
-    font-size: 2.5rem;
+  .servicesTitle {
+    font-size: 2rem !important;
     margin-bottom: 1.25rem;
   }
 
   .intro {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .header {
@@ -153,11 +153,11 @@
   }
 
   .serviceTitle {
-    font-size: 1.375rem;
+    font-size: 1.2rem;
   }
 
   .description {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .content {
@@ -170,8 +170,8 @@
     padding: 6rem 2rem;
   }
 
-  .title {
-    font-size: 3rem;
+  .servicesTitle {
+    font-size: 1.7rem !important;
   }
 
   .grid {

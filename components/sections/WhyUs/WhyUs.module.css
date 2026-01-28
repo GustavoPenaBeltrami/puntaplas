@@ -6,7 +6,7 @@
 
 /* Container */
 .container {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -19,8 +19,8 @@
   margin-right: auto;
 }
 
-.title {
-  font-size: 2rem;
+.whyUsTitle {
+  font-size: 2rem !important;
   font-weight: 700;
   color: var(--color-secundario);
   margin-bottom: 1rem;
@@ -74,7 +74,7 @@
 .icon {
   font-size: 2rem;
   line-height: 1;
-  filter: grayscale(100%) brightness(200%);
+  color: #ffffff;
 }
 
 /* Feature Title */
@@ -106,13 +106,13 @@
     padding: 5rem 2rem;
   }
 
-  .title {
-    font-size: 2.5rem;
+  .whyUsTitle {
+    font-size: 2rem !important;
     margin-bottom: 1.25rem;
   }
 
   .intro {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .header {
@@ -124,11 +124,11 @@
   }
 
   .featureTitle {
-    font-size: 1.375rem;
+    font-size: 1.2rem;
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .iconContainer {
@@ -146,8 +146,8 @@
     padding: 6rem 2rem;
   }
 
-  .title {
-    font-size: 3rem;
+  .whyUsTitle {
+    font-size: 1.8rem !important;
   }
 
   .grid {

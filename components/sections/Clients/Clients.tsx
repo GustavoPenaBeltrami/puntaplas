@@ -1,15 +1,16 @@
+import Image from 'next/image'
 import styles from './Clients.module.css'
 
 export default function Clients() {
   const allClients = [
-    { name: 'Disal', type: 'current' },
-    { name: 'Capilatis', type: 'current' },
-    { name: 'Jumalá', type: 'current' },
-    { name: 'Colgate', type: 'previous' },
-    { name: 'Hileret', type: 'previous' },
-    { name: 'Dellepiane', type: 'previous' },
-    { name: 'Promarc', type: 'previous' },
-    { name: 'Natural Foods', type: 'previous' },
+    { name: 'Disal', type: 'current', img: '/cliente_disal.png' },
+    { name: 'Capilatis', type: 'current', img: '/cliente_capilatis.png' },
+    { name: 'Jumalá', type: 'current', img: '/cliente_jumala.png' },
+    { name: 'Colgate', type: 'previous', img: '/cliente_colgate.jpg' },
+    { name: 'Hileret', type: 'previous', img: '/cliente_hileret.png' },
+    { name: 'Dellepiane', type: 'previous', img: '/cliente_dellepiane.png' },
+    // { name: 'Promarc', type: 'previous', img: '/logo_completo_azul.png' },
+    // { name: 'Natural Foods', type: 'previous', img: '/logo_completo_azul.png' },
   ]
 
   // Duplicar para el efecto infinito
@@ -20,7 +21,7 @@ export default function Clients() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>Marcas que confiaron en nosotros</h2>
+          <h2 className={styles.clientsTitle}>Marcas que confiaron en nosotros</h2>
           <p className={styles.intro}>
             A lo largo de nuestra historia trabajamos con empresas líderes de distintos rubros, 
             así como con nuevas marcas que recién comienzan a crecer.
@@ -32,10 +33,13 @@ export default function Clients() {
           <div className={styles.marquee}>
             {duplicatedClients.map((client, index) => (
               <div key={index} className={styles.clientCard}>
-                <span className={styles.clientName}>{client.name}</span>
-                <span className={styles.clientBadge}>
-                  {client.type === 'current' ? 'Cliente actual' : 'Cliente anterior'}
-                </span>
+                <Image
+                  src={client.img}
+                  alt={client.name}
+                  width={150}
+                  height={150}
+                  className={styles.clientLogo}
+                />
               </div>
             ))}
           </div>

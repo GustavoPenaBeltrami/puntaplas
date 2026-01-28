@@ -50,15 +50,15 @@ body {
 
 /* Escala general de headings (fallback para secciones sin override) */
 h1 {
-  font-size: clamp(2.1rem, 3vw + 1rem, 2.75rem) !important;
+  font-size: clamp(2.1rem, 3vw + 1rem, 2.75rem);
 }
 
 h2 {
-  font-size: clamp(1.75rem, 2.2vw + 0.9rem, 2.25rem) !important;
+  font-size: clamp(1.75rem, 2.2vw + 0.9rem, 2.25rem);
 }
 
 h3 {
-  font-size: clamp(1.3rem, 1.5vw + 0.85rem, 1.6rem) !important;
+  font-size: clamp(1.3rem, 1.5vw + 0.85rem, 1.6rem);
 }
 
 /* Clases de colores de texto */

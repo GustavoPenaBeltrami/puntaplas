@@ -6,7 +6,7 @@
 
 /* Container */
 .container {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@
 }
 
 /* Title */
-.title {
+.sustainabilityTitle {
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-secundario);
@@ -128,24 +128,20 @@
     max-width: 500px;
   }
 
-  .title {
-    font-size: 2.5rem;
-  }
-
   .intro {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
   }
 
   .description {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .listItem {
-    font-size: 1.0625rem;
+    font-size: .95rem;
   }
 
   .closing {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 }
 
@@ -158,8 +154,8 @@
     gap: 4rem;
   }
 
-  .title {
-    font-size: 3rem;
+  .sustainabilityTitle {
+    font-size: 1.8rem;
   }
 
   .imageContainer {

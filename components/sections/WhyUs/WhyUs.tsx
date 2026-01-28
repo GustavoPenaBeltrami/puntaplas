@@ -1,28 +1,29 @@
+import { HiTrophy, HiArrowTrendingUp, HiCog6Tooth, HiHandRaised } from 'react-icons/hi2'
 import styles from './WhyUs.module.css'
 
 export default function WhyUs() {
   const features = [
     {
       id: 'experiencia',
-      icon: '🏆',
+      icon: <HiTrophy />,
       title: 'Más de 30 años de experiencia',
       description: 'Tres décadas fabricando envases plásticos para distintas industrias, con procesos consolidados y mejora continua.',
     },
     {
       id: 'escalabilidad',
-      icon: '📈',
+      icon: <HiArrowTrendingUp />,
       title: 'Escalamos con tu proyecto',
       description: 'Trabajamos tanto con grandes volúmenes como con emprendedores que están dando sus primeros pasos.',
     },
     {
       id: 'flexibilidad',
-      icon: '⚙️',
+      icon: <HiCog6Tooth />,
       title: 'Flexibilidad en diseño y matricería',
       description: 'Podemos trabajar con nuestra matricería propia o con matrices de terceros, según las necesidades de tu marca.',
     },
     {
       id: 'acompanamiento',
-      icon: '🤝',
+      icon: <HiHandRaised />,
       title: 'Acompañamiento cercano',
       description: 'Te asesoramos en capacidad, materiales y formatos para encontrar el envase más adecuado para tu producto.',
     },
@@ -33,7 +34,7 @@ export default function WhyUs() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>¿Por qué las marcas eligen Puntaplas?</h2>
+          <h2 className={styles.whyUsTitle}>¿Por qué las marcas eligen Puntaplas?</h2>
           <p className={styles.intro}>
             Combinamos experiencia industrial, flexibilidad en producción y un fuerte 
             vínculo con el trabajo local en San Luis.

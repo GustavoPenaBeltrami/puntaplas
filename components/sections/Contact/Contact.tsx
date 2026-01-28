@@ -1,5 +1,6 @@
 import styles from "./Contact.module.css";
 import Button from "@/components/ui/Button";
+import { HiChatBubbleLeftRight, HiEnvelope, HiPhone, HiMapPin, HiClock } from 'react-icons/hi2';
 
 export default function Contact() {
   return (
@@ -7,7 +8,7 @@ export default function Contact() {
       <div className={styles.container}>
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>Contacto</h2>
+          <h2 className={styles.contactTitle}>Contacto</h2>
           <p className={styles.intro}>
             ¿Tenés un proyecto en mente? Contactanos y te asesoramos sin
             compromiso.
@@ -21,7 +22,7 @@ export default function Contact() {
             <div className={styles.infoBlocks}>
               {/* WhatsApp CTA */}
               <div className={styles.whatsappBlock}>
-                <div className={styles.whatsappIcon}>💬</div>
+                <div className={styles.whatsappIcon}><HiChatBubbleLeftRight /></div>
                 <h4 className={styles.whatsappTitle}>Contacto directo</h4>
                 <p className={styles.whatsappText}>
                   Chateá con nosotros por WhatsApp y te respondemos al instante
@@ -37,7 +38,7 @@ export default function Contact() {
 
               {/* Contact Details */}
               <div className={styles.infoBlock}>
-                <div className={styles.infoIcon}>📧</div>
+                <div className={styles.infoIcon}><HiEnvelope /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Email</h4>
                   <a
@@ -50,7 +51,7 @@ export default function Contact() {
               </div>
 
               <div className={styles.infoBlock}>
-                <div className={styles.infoIcon}>📱</div>
+                <div className={styles.infoIcon}><HiPhone /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Teléfono</h4>
                   <a href="tel:+542664000000" className={styles.infoLink}>
@@ -60,7 +61,7 @@ export default function Contact() {
               </div>
 
               <div className={styles.infoBlock}>
-                <div className={styles.infoIcon}>📍</div>
+                <div className={styles.infoIcon}><HiMapPin /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Dirección</h4>
                   <p className={styles.infoText}>Calle Ejemplo 1234 San Luis</p>
@@ -68,7 +69,7 @@ export default function Contact() {
               </div>
 
               <div className={styles.infoBlock}>
-                <div className={styles.infoIcon}>🕐</div>
+                <div className={styles.infoIcon}><HiClock /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Horarios</h4>
                   <p className={styles.infoText}>
