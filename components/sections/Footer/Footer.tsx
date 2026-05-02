@@ -98,11 +98,11 @@ export default function Footer() {
             <ul className={styles.contactList}>
               <li className={styles.contactItem}>
                 <span className={styles.contactIcon}><HiEnvelope /></span>
-                <a href="mailto:info@puntaplas.com.ar" className={styles.contactLink}>info@puntaplas.com.ar</a>
+                <a href="mailto:todrostomas@puntaplas.com" className={styles.contactLink}>todrostomas@puntaplas.com</a>
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactIcon}><HiPhone /></span>
-                <a href="tel:+542664000000" className={styles.contactLink}>+54 (266) 400-0000</a>
+                <a href="https://wa.me/5492664223809" className={styles.contactLink}>+54 9 2664 22-3809</a>
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactIcon}><HiMapPin /></span>
