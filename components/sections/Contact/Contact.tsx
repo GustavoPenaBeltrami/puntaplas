@@ -28,7 +28,7 @@ export default function Contact() {
                   Chateá con nosotros por WhatsApp y te respondemos al instante
                 </p>
                 <Button
-                  href="https://wa.me/5492664000000?text=Hola,%20me%20gustaría%20hacer%20una%20consulta"
+                  href="https://wa.me/5492664223809?text=Hola,%20me%20gustaría%20hacer%20una%20consulta"
                   variant="secondary"
                   size="medium"
                 >
@@ -42,10 +42,10 @@ export default function Contact() {
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Email</h4>
                   <a
-                    href="mailto:info@puntaplas.com.ar"
+                    href="mailto:todrostomas@puntaplas.com"
                     className={styles.infoLink}
                   >
-                    info@puntaplas.com.ar
+                    todrostomas@puntaplas.com
                   </a>
                 </div>
               </div>
@@ -54,8 +54,8 @@ export default function Contact() {
                 <div className={styles.infoIcon}><HiPhone /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Teléfono</h4>
-                  <a href="tel:+542664000000" className={styles.infoLink}>
-                    +54 (266) 400-0000
+                  <a href="tel:+5492664223809" className={styles.infoLink}>
+                    +54 9 2664 22‑3809
                   </a>
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function Contact() {
                 <div className={styles.infoIcon}><HiMapPin /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Dirección</h4>
-                  <p className={styles.infoText}>Calle Ejemplo 1234 San Luis</p>
+                  <p className={styles.infoText}>Calle 105 entre 5y8 parque industrial norte San Luis</p>
                 </div>
               </div>
 
