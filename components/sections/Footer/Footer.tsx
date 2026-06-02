@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { HiEnvelope, HiPhone, HiMapPin, HiClock } from 'react-icons/hi2';
 import styles from './Footer.module.css';
 
+
 export default function Footer() {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
