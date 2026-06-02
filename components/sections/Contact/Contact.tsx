@@ -64,7 +64,7 @@ export default function Contact() {
                 <div className={styles.infoIcon}><HiMapPin /></div>
                 <div className={styles.infoContent}>
                   <h4 className={styles.infoLabel}>Dirección</h4>
-                  <p className={styles.infoText}>Calle 105 entre 5y8 parque industrial norte San Luis</p>
+                  <p className={styles.infoText}>Calle 105 entre 5y7 parque industrial norte San Luis</p>
                 </div>
               </div>
 
